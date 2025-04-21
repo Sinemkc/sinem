@@ -1,4 +1,4 @@
-a=input("adınızı giriniz:");
-b=input("soyadını giriniz:");
-ilkharf=a[0]+ "."+b[0]
-print(ilkharf);
+kelime=input("bir sözcük giriniz:");
+harf=input("bir harf girinbiz:");
+sayac=kelime.count(harf)
+print(harf,sayac)
