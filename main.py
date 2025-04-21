@@ -1,3 +1,4 @@
-kelime=input("bir sözcük giriniz:");
-harfsayisi=len(kelime);
-print("kelimedeki harf sayısı:",harfsayisi);
+a=input("adınızı giriniz:");
+b=input("soyadını giriniz:");
+ilkharf=a[0]+ "."+b[0]
+print(ilkharf);
